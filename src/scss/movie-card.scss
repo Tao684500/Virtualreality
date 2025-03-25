@@ -1,0 +1,47 @@
+.movie-card {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 2px 20px 0 #0000001a;
+    display: flex;
+    .movie-img {
+        width: 300px;
+        min-width: 300px;
+        height: 350px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .movie-card-warp {
+        display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+        .detail {
+            .title {
+                font-size: 34px;
+                margin:  0;
+            }
+            .des {
+                font-size: 18px;
+            }
+        }
+        .btn-detail {
+            display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    .btn-l {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .button {
+            display: flex;
+            gap: 10px;
+        }
+    }
+        }
+    }
+}
