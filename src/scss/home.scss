@@ -1,0 +1,29 @@
+.home {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    .nav {
+        width: 100%;
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        ul {
+            li {
+                width: 100%;
+                justify-content: flex-start;
+                border: unset;
+                gap: 20px;
+                
+                .link {
+                    font-size: 30px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: rgb(12, 52, 253); // สีปกติ
+                }
+            }
+        }
+    }
+}
